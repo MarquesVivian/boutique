@@ -4,8 +4,10 @@ namespace App\Controller;
 
 use App\Entity\Contenir;
 use App\Entity\Panier;
+use App\Entity\Produit;
 use App\Form\PanierType;
 use App\Repository\PanierRepository;
+use App\Repository\ProduitRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -125,8 +127,9 @@ class PanierController extends AbstractController
     /**
      * @Route("/panier/add/{id}", name="panier_add")
      */
-    public function add(SessionInterface ): Response
+    public function add(ProduitRepository $produitRepository ,SessionInterface $session): Response
     {
 
+        return $this->redirectToRoute('produit_index');
     }
 }
