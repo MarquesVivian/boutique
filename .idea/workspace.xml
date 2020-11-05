@@ -1,29 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba586be7-0ac9-441d-9aec-ded79f0e5ebe" name="Default Changelist" comment="Second">
-      <change afterPath="$PROJECT_DIR$/public/images/gommettes1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gommettes2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gommettes3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gommettes4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gommettes5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CategorieController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/CategorieFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Categorie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/CategorieType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CategorieRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/categorie/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/categorie/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/categorie/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/categorie/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/categorie/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/categorie/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="ba586be7-0ac9-441d-9aec-ded79f0e5ebe" name="Default Changelist" comment="3">
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201104153605.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201105083536.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201105091535.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201105094102.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201105102413.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201105102506.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/CorrespondreController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/PanierController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ProduitController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/TagController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Contenir.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Correspondre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Panier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Produit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/CorrespondreType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/PanierType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/ProduitType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/TagType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ContenirRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/CorrespondreRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/PanierRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ProduitRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/TagRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/correspondre/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/correspondre/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/correspondre/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/correspondre/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/correspondre/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/correspondre/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/panier/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/panier/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/panier/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/panier/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/panier/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/panier/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/produit/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/produit/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/produit/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/produit/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/produit/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/produit/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tag/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tag/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tag/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tag/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tag/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tag/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20201103153929.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AccueilController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccueilController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accueil/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accueil/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/CategorieFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Categorie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +210,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -180,7 +229,8 @@
       <workItem from="1604417484256" duration="1125000" />
       <workItem from="1604482599769" duration="6332000" />
       <workItem from="1604493390043" duration="172000" />
-      <workItem from="1604493575108" duration="10827000" />
+      <workItem from="1604493575108" duration="10868000" />
+      <workItem from="1604559713976" duration="14396000" />
     </task>
     <task id="LOCAL-00001" summary="premier">
       <created>1604494533184</created>
@@ -196,27 +246,46 @@
       <option name="project" value="LOCAL" />
       <updated>1604497174053</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3">
+      <created>1604504746835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604504746835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="premier" />
     <MESSAGE value="Second" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="72" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604487076988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="591" y="72" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604487076988" />
-    <state x="92" y="92" width="1736" height="856" key="DirDiffDialog" timestamp="1604502761918">
+    <state x="92" y="92" width="1736" height="856" key="DirDiffDialog" timestamp="1604572643094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604502761918" />
+    <state x="92" y="92" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604572643094" />
     <state x="687" y="199" key="FileChooserDialogImpl" timestamp="1604493630866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -225,14 +294,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="420" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604492904434" />
-    <state x="203" y="0" width="1591" height="1040" key="SettingsEditor" timestamp="1604485567690">
+    <state x="203" y="0" width="1591" height="1040" key="SettingsEditor" timestamp="1604570731768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="203" y="0" width="1591" height="1040" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604485567690" />
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1604497195193">
+    <state x="203" y="0" width="1591" height="1040" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604570731768" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1604504749482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604497195193" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604504749482" />
     <state x="1194" y="409" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604494549093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
